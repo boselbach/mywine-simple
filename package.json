@@ -1,0 +1,14 @@
+{
+  "name": "mywine-simple",
+  "version": "1.0.0",
+  "description": "Mywine simple using http-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server -a localhost -p 3000 -c-1"
+  },
+  "author": "Bo Skov Selbach",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
